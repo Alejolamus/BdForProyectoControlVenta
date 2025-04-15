@@ -20,5 +20,10 @@
     <PackageReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="BaseDePrueva\" />
+    <Folder Include="Lanzadores\Eliminado\" />
+  </ItemGroup>
+
 </Project>
 
