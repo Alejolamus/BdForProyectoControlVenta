@@ -21,8 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="BaseDePrueva\" />
-    <Folder Include="Lanzadores\Eliminado\" />
+    <ProjectReference Include="..\..\GeneradoBDFSharp\GeneradoBDFSharp\GeneradoBDFSharp.fsproj" />
   </ItemGroup>
 
 </Project>

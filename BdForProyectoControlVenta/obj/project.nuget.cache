@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9blUxidWudLLVRKS785VFDE6+KRJmZGOAAG5kM8Ip+drwtAYyP60LwbsG+oUNfGCULs0AtbIi68HD8oRVImRIA==",
+  "dgSpecHash": "wQCSMuxcZR8dJTYqotMi86So2Ox6SuzL1h2L0x10hDNm3yjuv4KQ7HH2s9BBiCOZy/FwXa3TU6ScCfzGhLZo2g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jhon Lamus\\source\\repos\\BdForProyectoControlVenta\\BdForProyectoControlVenta\\BdForProyectoControlVenta.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Jhon Lamus\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512",
     "C:\\Users\\Jhon Lamus\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Jhon Lamus\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Jhon Lamus\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.17\\microsoft.entityframeworkcore.5.0.17.nupkg.sha512",
