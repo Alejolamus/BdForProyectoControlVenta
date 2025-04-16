@@ -7,7 +7,7 @@ namespace BdForProyectoControlVenta.Lanzadores.LanzadoresCargosProb
 {
     public class LanzadorUsers
     {
-        static void Main()
+        public static void Ejecutar()
         {
             Console.WriteLine("Nombre de usuario");
             string nombreuser = Console.ReadLine();

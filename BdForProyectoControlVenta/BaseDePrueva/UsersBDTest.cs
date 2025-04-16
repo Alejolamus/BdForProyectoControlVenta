@@ -9,7 +9,7 @@ namespace BdForProyectoControlVenta.BaseDePrueva
 {
     public class UsersBDTest
     {
-        public void MostrarDatos()
+        public static void Ejecutar()
         {
             //llamo laslistas desde f#
             var usersTestBdProv = Puente.EmpleadosCuatroCargos;
@@ -33,7 +33,7 @@ namespace BdForProyectoControlVenta.BaseDePrueva
                     int DocuAddTest = documentsTestBdProvArray[xIndex];
                     string TiDocAddTest = tipoDocTestBdProvArray[xIndex];
                     string PaddAddTest = contraseñasTestBdProvArray[xIndex];
-                    var User = new Users
+                    var Usernew = new Users
                     {
                         Nombre = x,
                         Cargo = CargoAddTest,
@@ -41,8 +41,11 @@ namespace BdForProyectoControlVenta.BaseDePrueva
                         NumeroDeDocumento = DocuAddTest,
                         Contraseña = PaddAddTest,
                         EstadoVacacional = false
-                    }
-                   
+                    };
+
+                    context.Users.Add(Usernew);
+                    context.SaveChanges();
+
                 }
                 Console.WriteLine("Se agrego los primeros usuarios recuerde:");
                 Console.WriteLine("Admin: Jonh Russell Pass: as578dwasd52 ");
