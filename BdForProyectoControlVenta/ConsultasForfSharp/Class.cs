@@ -44,7 +44,8 @@ namespace BdForProyectoControlVenta.ConsultasForfSharp
                         listaDeVentas.Add(new RegistroVenta
                         {
                             Fecha = fechaVenta,
-                            Cantidad = unidad.CantidadVendida
+                            Cantidad = unidad.CantidadVendida,
+                            Nombre = nombreProducto
                         });
                     }
                     listaDeListasVentasProductos.Add(listaDeVentas);

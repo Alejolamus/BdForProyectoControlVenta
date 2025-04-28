@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using GeneradoBDFSharp;
+using DateforBD;
 using BdForProyectoControlVenta.Models;
 using BdForProyectoControlVenta.Data;
 using System.Linq;
@@ -12,11 +12,11 @@ namespace BdForProyectoControlVenta.BaseDePrueva
         public static void Ejecutar()
         {
             //llamo laslistas desde f#
-            var usersTestBdProv = Puente.EmpleadosCuatroCargos;
-            var tipoDocTestBdProv = Puente.TipoDeDocEmpleadosOrdenados;
-            var documentsTestBdProv = Puente.DocEmpleadosOrdenados;
-            var cargosTestBdProv = Puente.CargosEmpleadosOrdenados;
-            var contraseñasTestBdProv = Puente.ContraseñasEmpleadoOrdenados;
+            var usersTestBdProv = VariablesParaBDTest.EmpleadosCuatroCargos;
+            var tipoDocTestBdProv = VariablesParaBDTest.TipoDeDocEmpleadosOrdenados;
+            var documentsTestBdProv = VariablesParaBDTest.DocEmpleadosOrdenados;
+            var cargosTestBdProv = VariablesParaBDTest.CargosEmpleadosOrdenados;
+            var contraseñasTestBdProv = VariablesParaBDTest.ContraseñasEmpleadoOrdenados;
             //Las paso a array
             string[] usersTestBdProvArray = usersTestBdProv.ToArray();
             string[] tipoDocTestBdProvArray = tipoDocTestBdProv.ToArray();
